@@ -1,0 +1,10 @@
+[DEBUG] 2019-01-19 21:19:31.294 [main] Log4jTest - This is DEBUG
+[ERROR] 2019-01-19 21:19:31.297 [main] Log4jTest - This is ERROR
+[WARN ] 2019-01-19 21:19:31.297 [main] Log4jTest - This is WARNING
+[FATAL] 2019-01-19 21:19:31.297 [main] Log4jTest - This is FATAL
+[INFO ] 2019-01-19 21:19:31.297 [main] Log4jTest - This is INFO
+[DEBUG] 2019-01-19 21:20:15.948 [main] Log4jTest - This is DEBUG
+[ERROR] 2019-01-19 21:20:15.952 [main] Log4jTest - This is ERROR
+[WARN ] 2019-01-19 21:20:15.952 [main] Log4jTest - This is WARNING
+[FATAL] 2019-01-19 21:20:15.952 [main] Log4jTest - This is FATAL
+[INFO ] 2019-01-19 21:20:15.952 [main] Log4jTest - This is INFO

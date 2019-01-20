@@ -30,7 +30,7 @@ public class ExcelUtils {
 
 	public static int getRowCount() {
 		int rcount;
-		//rcount = sheet.getPhysicalNumberOfRows();
+		rcount = sheet.getPhysicalNumberOfRows();
 		System.out.println("No of rows : "+rcount);
 		String cellData = sheet.getRow(0).getCell(1).getStringCellValue();
 		

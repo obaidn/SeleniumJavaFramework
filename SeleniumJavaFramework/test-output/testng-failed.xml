@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.stc.listener.TestNGListener"/>
+  </listeners>
+  <test name="Test(failed)">
     <classes>
-      <class name="com.stc.test.KatalonRecorder">
+      <class name="com.stc.listener.TestNGListenerTest2">
         <methods>
-          <include name="setUp"/>
-          <include name="testGoogleSearch"/>
-          <include name="tearDown"/>
+          <include name="test20"/>
+          <include name="test30"/>
         </methods>
-      </class> <!-- com.stc.test.KatalonRecorder -->
+      </class> <!-- com.stc.listener.TestNGListenerTest2 -->
+      <class name="com.stc.listener.TestNGListenerTest">
+        <methods>
+          <include name="test3"/>
+          <include name="test2"/>
+        </methods>
+      </class> <!-- com.stc.listener.TestNGListenerTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

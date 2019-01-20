@@ -2,20 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="7723" started-at="2019-01-10T23:37:29Z" finished-at="2019-01-10T23:37:37Z">
+  <suite name="Default suite" duration-ms="18843" started-at="2019-01-14T19:33:18Z" finished-at="2019-01-14T19:33:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="7723" started-at="2019-01-10T23:37:29Z" finished-at="2019-01-10T23:37:37Z">
-      <class name="com.stc.test.AutoITTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.stc.test.AutoITTest@cc285f4]" name="setUp" is-config="true" duration-ms="3053" started-at="2019-01-10T17:37:29Z" finished-at="2019-01-10T17:37:32Z">
+    <test name="Default test" duration-ms="18843" started-at="2019-01-14T19:33:18Z" finished-at="2019-01-14T19:33:37Z">
+      <class name="com.stc.test.GoogleSearchTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:com.stc.test.GoogleSearchTest@55f3ddb1]" name="setUP" is-config="true" duration-ms="5076" started-at="2019-01-14T13:33:18Z" finished-at="2019-01-14T13:33:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="searhGoogle()[pri:0, instance:com.stc.test.AutoITTest@cc285f4]" name="searhGoogle" duration-ms="4654" started-at="2019-01-10T17:37:32Z" finished-at="2019-01-10T17:37:37Z">
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:com.stc.test.GoogleSearchTest@55f3ddb1]" name="googleSearch" duration-ms="11332" started-at="2019-01-14T13:33:24Z" finished-at="2019-01-14T13:33:35Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searhGoogle -->
-      </class> <!-- com.stc.test.AutoITTest -->
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.stc.test.GoogleSearchTest@55f3ddb1]" name="tearDown" is-config="true" duration-ms="2398" started-at="2019-01-14T13:33:35Z" finished-at="2019-01-14T13:33:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.stc.test.GoogleSearchTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
